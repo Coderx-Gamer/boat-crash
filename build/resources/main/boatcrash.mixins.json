@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.boatcrash.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "client": [
+    "ClientPlayerEntityMixin",
+    "accessor.ClientConnectionAccessor"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

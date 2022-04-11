@@ -1,0 +1,22 @@
+{
+  "mappings": {
+    "net/boatcrash/mixin/ClientPlayerEntityMixin": {
+      "sendChatMessage": "Lnet/minecraft/class_746;method_3142(Ljava/lang/String;)V",
+      "tick": "Lnet/minecraft/class_746;method_5773()V"
+    },
+    "net/boatcrash/mixin/accessor/ClientConnectionAccessor": {
+      "channel": "field_11651:Lio/netty/channel/Channel;"
+    }
+  },
+  "data": {
+    "named:intermediary": {
+      "net/boatcrash/mixin/ClientPlayerEntityMixin": {
+        "sendChatMessage": "Lnet/minecraft/class_746;method_3142(Ljava/lang/String;)V",
+        "tick": "Lnet/minecraft/class_746;method_5773()V"
+      },
+      "net/boatcrash/mixin/accessor/ClientConnectionAccessor": {
+        "channel": "field_11651:Lio/netty/channel/Channel;"
+      }
+    }
+  }
+}
